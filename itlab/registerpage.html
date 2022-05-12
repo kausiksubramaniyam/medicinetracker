@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+  width: 500px;
+  float: right;
+}
+
+/* Full-width input fields width: 100%;
+  padding: 15px;*/
+input[type=text], input[type=password] {
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 25px;
+  padding: 20px; 
+  width: 100%;
+  height: 60px; 
+}
+
+input[type=text]:focus,input[type=number]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: rgb(11,3,133);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<iframe src="https://www.apollo247.com/" title="W3Schools Free Online Web Tutorials" width="910px" height="900px"></iframe>
+<div class="container">
+<img src="meditracklogo.png" style="width: 330px;height: 100px;"><br>
+<hr>
+<div><form action="/action_page.php">
+  
+    <h1>Login</h1>
+    <p>We Do Not collect any of your personal information without your knowledge for any usage.</p><br>
+    <hr>
+    <br>
+    <label for="email"><b>Email/Phone</b></label>
+    <input type="text" placeholder="Enter Email or Mobile Number" name="email" id="email" required>
+    
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
+
+    <hr>
+
+    <button type="submit" class="registerbtn">Login</button><br><br><br><br>
+  
+  </div>
+
+  <div class="container signin">
+    <p>New to MediTrack ? <a href="kps.html">Register</a>.</p>
+  </div>
+</form>
+</div>
+
+</body>
+</html>
